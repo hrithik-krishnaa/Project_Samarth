@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore VSCode, build, logs
+.vscode/
+*.log
+
+# Ignore node modules and frontend builds
+frontend/node_modules/
+frontend/build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
