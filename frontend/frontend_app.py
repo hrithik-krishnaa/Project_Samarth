@@ -12,7 +12,7 @@ question = st.text_input("Enter your question:")
 if st.button("Ask"):
     if question.strip():
         try:
-            response = requests.post("http://127.0.0.1:8000/query", json={"question": question})
+            response = requests.post("https://project-samarth-brcd.onrender.com/query", json={"question": question})
             if response.status_code == 200:
                 data = response.json()
 
